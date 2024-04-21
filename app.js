@@ -67,7 +67,7 @@ $(function ()
                 }
                 else
                 {
-                    pElement.html('Password minimal 6 karakter, memiliki setidaknya 1 huruf kapital')
+                    pElement.html('Password minimal 6 karakter, memiliki setidaknya 1 huruf kapital dan karakter special')
                     pElement.removeClass('text-indigo-300 text-green-900')
                     pElement.addClass('text-red-900')
                 }
