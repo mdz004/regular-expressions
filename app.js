@@ -4,7 +4,7 @@ $(function ()
     const nohp = /^(\+\d{1,3}\d{4,13}|0\d{4,13})$/;
     const username = /^[a-zA-Z0-9_]{5,}$/;
     const idemployer = /^C-\d+$/;
-    const password = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    const password = /^(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/;
     
     $('input').each(function ()
     {
@@ -67,7 +67,7 @@ $(function ()
                 }
                 else
                 {
-                    pElement.html('password Tidak Valid')
+                    pElement.html('Password minimal 6 karakter, memiliki setidaknya 1 huruf kapital')
                     pElement.removeClass('text-indigo-300 text-green-900')
                     pElement.addClass('text-red-900')
                 }
