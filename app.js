@@ -61,7 +61,7 @@ $(function ()
             {
                 if (password.test($(this).val()))
                 {
-                    pElement.html('password Valid')
+                    pElement.html('Password Valid')
                     pElement.removeClass('text-indigo-300 text-red-900')
                     pElement.addClass('text-green-900')
                 }
